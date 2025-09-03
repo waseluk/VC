@@ -1,8 +1,24 @@
 :root {
-  --background: #ffffff;
-  --foreground: #ffffff;
+  --font-calistoga: "Calistoga", sans-serif;
+  --background: #112b28;
+  --foreground: #d9d9d9;
 }
 
+.light_green_font {
+  font-family: var(--font-calistoga);
+  font-size: 5rem; /* 16px */
+  color: #567d78;
+}
+
+.dark_green_font {
+  font-family: var(--font-calistoga);
+  color: #112b28;
+}
+
+.white_font {
+  font-family: var(--font-calistoga);
+  color: #d9d9d9;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ededed;
@@ -33,19 +49,6 @@ body {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-h1,
-h2 {
-  font-family: var(--font-bebas), sans-serif;
-}
-
-body,
-p,
-span,
-nav {
-  font-family: var(--font-josefin), sans-serif;
-  color: #333;
 }
 
 a {
