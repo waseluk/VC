@@ -1,0 +1,30 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  justify-content: space-between;
+  display: flex;
+  padding: 3rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+}
+
+.linkActive {
+  font-weight: bold;
+  opacity: 1;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.navLinks a {
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}

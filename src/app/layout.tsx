@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Navbar from "@/header/navbar";
 import { Calistoga } from "next/font/google";
 import "./globals.css";
 
@@ -23,7 +24,10 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/vassel_logo_alternate.svg" />
       </head>
-      <body className={`${calistoga.className} antialiased`}>{children}</body>
+      <body className={`${calistoga.className} antialiased`}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
