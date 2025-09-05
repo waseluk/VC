@@ -1,0 +1,49 @@
+.cardContainer {
+  background-color: #4f7772;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardReview {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #f6f6f6;
+  margin-bottom: 1.5rem;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.cardImage {
+  flex-shrink: 0;
+}
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cardAuthorInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardAuthor {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #eaeaea;
+  margin: 0;
+}
+
+.cardCompany {
+  font-size: 0.85rem;
+  color: #909090;
+  margin: 0;
+}
