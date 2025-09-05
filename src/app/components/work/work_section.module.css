@@ -6,3 +6,14 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.workFormat {
+  gap: 2rem;
+}
+
+.workIntro {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  max-width: 700px;
+  padding: 5rem 0rem;
+  margin: 0 auto;
+}
