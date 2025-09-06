@@ -1,3 +1,4 @@
+import Designer from "./components/designer/designer";
 import HeroSection from "./components/homehero/hero";
 import ReviewSection from "./components/reviews/reviewSection";
 import WorkSection from "./components/work/workSection";
@@ -10,6 +11,7 @@ export default function Home() {
         <HeroSection />
         <ReviewSection />
         <WorkSection />
+        <Designer />
       </main>
     </div>
   );
