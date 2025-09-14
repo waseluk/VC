@@ -6,7 +6,7 @@ export default function WorkSection() {
   return (
     <section className={styles.workFormat}>
       <div className={styles.workIntro}>
-        <h3>
+        <h3 className={styles.subText}>
           A tenure within ecommerce, every business has a unique flair. Our
           mission is to showcase it to the world. Whether through a beautifully
           crafted website or a marketing campaign that resonates, we are here to

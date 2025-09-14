@@ -1,7 +1,7 @@
 .cardContainer {
   display: flex;
   flex-direction: column;
-  background-color: #1e1e1e;
+  background-color: #112b28;
   border-radius: 12px;
   overflow: hidden;
   padding: 1rem;
@@ -50,4 +50,11 @@
   color: #6cb9c7;
   margin-left: 1rem;
   white-space: nowrap;
+}
+
+.h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2e5c57;
+  line-height: 1.6;
 }
