@@ -1,9 +1,9 @@
-import Hero from "@/app/components/hero/hero";
+import ProcessHero from "@/app/components/processpagehero/processhero";
 
 export default function Process() {
   return (
     <>
-      <Hero />
+      <ProcessHero />
     </>
   );
 }
