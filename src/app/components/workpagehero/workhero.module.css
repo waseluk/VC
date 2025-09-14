@@ -1,0 +1,76 @@
+.vasselHeroSection {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+  padding: 1rem;
+  background: #3a5752;
+}
+
+.vasselHeroStripes {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120%;
+  height: 120%;
+  transform: rotate(40deg);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 1;
+}
+
+.vasselHeroStripe {
+  height: 40px;
+  width: 100%;
+}
+
+.vasselHeroLight {
+  background: #6cb9c7;
+}
+
+.vasselHeroDark {
+  background: #112b28;
+  margin-top: 12px;
+}
+
+.vasselHeroWatermark {
+  position: absolute;
+  font-size: clamp(2rem, 8vw, 6rem);
+  font-weight: bold;
+  font-family: "Georgia", serif;
+  color: rgba(255, 255, 255, 0.05);
+  z-index: 0;
+  pointer-events: none;
+  user-select: none;
+  line-height: 1.2;
+}
+
+.vasselHeroHeaderText {
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  line-height: 1.6;
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  max-width: 90%;
+}
+
+.vasselHeroHeaderText span {
+  color: #6cb9c7;
+}
+
+.vasselHeroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.vasselHeroSubheaderText {
+  font-size: clamp(1rem, 2vw, 1.25rem);
+  max-width: 700px;
+  margin-top: 2rem;
+}
