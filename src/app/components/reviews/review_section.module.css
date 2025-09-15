@@ -6,3 +6,12 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.workSectionAlt {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding: 0rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}

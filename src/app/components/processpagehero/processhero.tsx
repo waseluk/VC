@@ -12,13 +12,13 @@ export default function ProcessHero() {
       </div>
 
       <div className={styles.vasselHeroContent}>
-        <div className={styles.vasselHeroHeaderText}>
+        <h1 className={styles.vasselHeroHeaderText}>
           My Process <br />
-        </div>
-        <div className={styles.vasselHeroSubheaderText}>
+        </h1>
+        <h2 className={styles.vasselHeroSubheaderText}>
           All of my initial consultations are <span>free</span>. Forget ‘hard
           selling’, lets just have a <span>chat</span>.
-        </div>
+        </h2>
       </div>
 
       <div className={styles.vasselHeroWatermark}>
