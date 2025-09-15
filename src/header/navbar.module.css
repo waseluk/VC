@@ -26,6 +26,12 @@
   gap: 2rem;
 }
 
+.navLinksAlt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .navLinks a {
   text-decoration: none;
   transition: opacity 0.3s ease;

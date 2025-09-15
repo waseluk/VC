@@ -12,13 +12,13 @@ export default function WorkHero() {
       </div>
 
       <div className={styles.vasselHeroContent}>
-        <div className={styles.vasselHeroHeaderText}>
+        <h1 className={styles.vasselHeroHeaderText}>
           Work <br />
-        </div>
-        <div className={styles.vasselHeroSubheaderText}>
+        </h1>
+        <h2 className={styles.vasselHeroSubheaderText}>
           Since 2024, I’ve had the privilege of collaborating with professionals
           from diverse industries, bringing ideas to life.
-        </div>
+        </h2>
       </div>
 
       <div className={styles.vasselHeroWatermark}>
