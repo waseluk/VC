@@ -12,6 +12,9 @@ const calistoga = Calistoga({
 export const metadata: Metadata = {
   title: "Vassel Creative",
   description: "Web Development & Digital Marketing",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -21,9 +24,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/vassel_logo.svg" />
-      </head>
       <body className={`${calistoga.className} antialiased`}>
         <Navbar />
         {children}
