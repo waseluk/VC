@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/vassel_logo_alternate.svg" />
+        <link rel="icon" href="/vassel_logo.svg" />
       </head>
       <body className={`${calistoga.className} antialiased`}>
         <Navbar />
