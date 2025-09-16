@@ -37,7 +37,10 @@
   color: white;
   text-align: left;
 }
-
+.headerSection {
+  font-size: 1.25rem;
+  color: #2e5c57;
+}
 .workSection th,
 .workSection td {
   padding: 1rem;

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.vasselcreative.com/sitemap.xml
