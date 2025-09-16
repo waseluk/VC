@@ -7,11 +7,9 @@ export default function WorkSection() {
     <section className={styles.workFormat}>
       <div className={styles.workIntro}>
         <h3 className={styles.subText}>
-          A tenure within ecommerce, every business has a unique flair. Our
-          mission is to showcase it to the world. Whether through a beautifully
-          crafted website or a marketing campaign that resonates, we are here to
-          be a vessel for your story, transforming your vision into something
-          exceptional.
+          I believe every business carries a <span>unique</span> spark. My
+          mission is to shape that spark within the digital space, building{" "}
+          <span>websites</span> to make your vision <span>shine.</span>
         </h3>
       </div>
       <div className={styles.workSection}>

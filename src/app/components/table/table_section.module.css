@@ -28,6 +28,10 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
+.workIntro span {
+  color: #6cb9c7;
+}
+
 .workSection thead {
   background-color: #6181e1c2;
   color: white;

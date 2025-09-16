@@ -6,11 +6,11 @@ export default function Designer() {
   return (
     <section className={styles.designerSection}>
       <div className={styles.textContent}>
-        <h3 className={styles.tagline}>Not your average designer.</h3>
+        <h4 className={styles.tagline}>Not your average developer.</h4>
 
         <p className={styles.paragraph}>
           With a background in the creative arts, <br />
-          creativity is communication.
+          <span>creativity</span> is <span>communication.</span>
         </p>
 
         <p className={styles.paragraph}>
@@ -20,13 +20,16 @@ export default function Designer() {
 
         <p className={styles.subText}>
           Transparency and communication are everything to me. <br />
-          Find more about how we can work together to make your brand stand out.
+          <a href="/process">
+            Find out more about how we can work together to make your brand{" "}
+            <span>stand out.</span>
+          </a>
         </p>
       </div>
 
       <div className={styles.imageWrapper}>
         <Image
-          src="/images/vassel_logo.svg"
+          src="/images/tom.avif"
           alt="Designer portrait"
           width={300}
           height={380}

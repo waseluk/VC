@@ -1,5 +1,5 @@
 import Footer from "@/app/components/footer/footer";
-import styles from "@/app/pages/process/page.module.css";
+import styles from "@/app/process/page.module.css";
 import ThreeColumnLayout from "@/app/components/processcolumn/threecolumn";
 import ProcessHero from "@/app/components/processpagehero/processhero";
 

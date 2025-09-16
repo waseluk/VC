@@ -6,6 +6,10 @@
   padding: 4rem 4rem;
 }
 
+.designerSection span {
+  color: #6cb9c7;
+}
+
 .textContent {
   display: flex;
   flex-direction: column;

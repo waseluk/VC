@@ -14,12 +14,13 @@ export default function Hero() {
 
       <div className={styles.vasselHeroContent}>
         <h1 className={styles.vasselHeroHeaderText}>
-          B<span>e</span>spoke Websites <br />
+          B<span>e</span>spo<span>k</span>e Websites <br />
           for private clients.
         </h1>
         <h2 className={styles.vasselHeroSubheaderText}>
-          Tom is an independent designer working with best Web practices to
-          develop beautiful sites.
+          An independent developer dedicated to building fast,{" "}
+          <span>accessible</span>, and visually engaging websites using modern
+          web <span>best practices</span>.
         </h2>
       </div>
 
