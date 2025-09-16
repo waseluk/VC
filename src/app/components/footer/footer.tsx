@@ -5,12 +5,16 @@ export default function FooterSection() {
     <section className={styles.vasselFooterSection}>
       <div className={styles.vasselFooterContent}>
         <div className={styles.vasselFooterHeaderText}>
-          If you have a project that you’d like to discuss, get in touch to get
-          the ball rolling or <a>see my process</a>.
+          If you have a project that you’d like to discuss,
+          <span>get in touch</span> to get the ball rolling.
         </div>
         <div className={styles.vasselFooterSubheaderText}>
           <p>Social media free since 2023 drop me an email: </p>
-          <p>hello@vasselcreative.com</p>
+          <p>
+            <a href="mailto:hello@vasselcreative.com?subject=Let’s%20Work%20Together&body=Hi%20Vassel%20Creative,">
+              <span>hello@vasselcreative.com</span>
+            </a>
+          </p>
         </div>
       </div>
 

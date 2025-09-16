@@ -1,47 +1,47 @@
 export const workCards = [
     {
-      image: "/images/project1.jpg",
-      cardDescription: "Modern portfolio site",
+      image: "/images/madehuman.avif",
+      cardDescription: "Creative Events Agency",
       cardYear: 2025
     },
     {
-      image: "/images/project2.jpg",
-      cardDescription: "E-commerce shop",
+      image: "/images/kittycoles.avif",
+      cardDescription: "Author, Foodwriter, Chef",
       cardYear: 2025
     },
     {
-      image: "/images/project3.jpg",
-      cardDescription: "Marketing landing page",
+      image: "/images/bartertoken.avif",
+      cardDescription: "Crypto Token Website",
       cardYear: 2024
     },
     {
-        image: "/images/project3.jpg",
-        cardDescription: "Marketing landing page",
+        image: "/images/hydroleisure.avif",
+        cardDescription: "South East Leisure Company",
         cardYear: 2024
       },
   ];
 
   export const reviewData = [
     {
-      image: "/images/project1.jpg",
+      image: "/images/pawsley.avif",
       cardReview: "Tom has a clear creative eye for websites. His process is thorough and detailed.",
       cardAuthor: "Simon M",
       cardCompany: "Pawsley Consulting"
     },
     {
-      image: "/images/project2.jpg",
+      image: "/images/sjd.avif",
       cardReview: "Bespoke, professional and performative.",
       cardAuthor: "Samuel D",
       cardCompany: "Bramblestone Developments"
     },
     {
-      image: "/images/project3.jpg",
+      image: "/images/kitty.avif",
       cardReview: "Tom really brings a vast array of ideas to sessions and works closely to integrate requirements.",
       cardAuthor: 'Kitty C',
       cardCompany: "Writer & Food Stylist"
     },
     {
-        image: "/images/project3.jpg",
+        image: "/images/rje.avif",
         cardReview: "A problem solver and a unique designer. Great to have him on board.",
         cardAuthor: "Regan E",
         cardCompany: "RJE Studio"

@@ -16,8 +16,9 @@ export default function WorkHero() {
           Work <br />
         </h1>
         <h2 className={styles.vasselHeroSubheaderText}>
-          Since 2024, I’ve had the privilege of collaborating with professionals
-          from diverse industries, bringing ideas to life.
+          Since 2024, I’ve worked alongside some <span>wonderful</span> people,
+          shaping ideas into <span>websites</span> and stories that come alive
+          online.
         </h2>
       </div>
 
