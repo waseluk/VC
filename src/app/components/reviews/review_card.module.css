@@ -4,22 +4,19 @@
   padding: 1.5rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 
-  /* Flex layout for card content */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
-  /* Make width responsive */
-  width: 100%; /* Fills parent container */
-  max-width: 350px; /* Keeps a reasonable card size */
-  min-width: 250px; /* Prevents card from getting too narrow */
+  width: 100%;
+  max-width: 350px;
+  min-width: 250px;
 
-  /* Optional: smooth sizing with flex */
   flex: 1 1 auto;
 }
 
 .cardReview {
-  font-size: clamp(0.9rem, 2vw, 1rem); /* Scales with viewport */
+  font-size: clamp(0.9rem, 2vw, 1rem);
   line-height: 1.6;
   color: #f6f6f6;
   margin-bottom: 1.5rem;
@@ -29,12 +26,12 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  flex-wrap: wrap; /* Prevent overflow if space is tight */
+  flex-wrap: wrap;
 }
 
 .cardImage {
   flex-shrink: 0;
-  width: 50px; /* Set a fixed width for consistency */
+  width: 50px;
   height: 50px;
 }
 
@@ -48,19 +45,19 @@
 .cardAuthorInfo {
   display: flex;
   flex-direction: column;
-  flex: 1; /* Take remaining space in footer */
-  min-width: 0; /* Prevent overflow with long text */
+  flex: 1;
+  min-width: 0;
 }
 
 .cardAuthor {
   font-weight: 600;
-  font-size: clamp(0.85rem, 1.5vw, 0.95rem); /* Responsive scaling */
+  font-size: clamp(0.85rem, 1.5vw, 0.95rem);
   color: #eaeaea;
   margin: 0;
 }
 
 .cardCompany {
-  font-size: clamp(0.75rem, 1.2vw, 0.85rem); /* Responsive scaling */
+  font-size: clamp(0.75rem, 1.2vw, 0.85rem);
   color: #909090;
   margin: 0;
 }
