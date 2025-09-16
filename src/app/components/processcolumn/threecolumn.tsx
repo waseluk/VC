@@ -11,7 +11,7 @@ export default function ThreeColumnLayout() {
 
       <main className={styles.main}>
         <section id="chat" className={styles.section}>
-          <h3>Chat and Review</h3>
+          <h3 className={styles.headerColumn}>Chat and Review</h3>
           <p className={styles.paragraph}>
             I will ask you lots of questions around you and your brand. Learning
             more about you and what you do.
@@ -24,7 +24,7 @@ export default function ThreeColumnLayout() {
         </section>
 
         <section id="design" className={styles.section}>
-          <h4>Design & Development</h4>
+          <h4 className={styles.headerColumn}>Design & Development</h4>
           <p className={styles.subText}>
             My goal is to be as <span>transparent</span> as possible, using the
             latest languages and frameworks I will <span>communicate</span>{" "}
@@ -43,7 +43,7 @@ export default function ThreeColumnLayout() {
         </section>
 
         <section id="aftercare" className={styles.section}>
-          <h5>Aftercare</h5>
+          <h5 className={styles.headerColumn}>Aftercare</h5>
           <p className={styles.subText}>
             When we have launched, <span>aftercare</span> and communication is
             just as important to ensure your new site remains <span>fresh</span>
