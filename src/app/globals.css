@@ -51,6 +51,14 @@ body {
   margin: 0;
 }
 
+.h1 {
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  line-height: 1.6;
+  font-family: "Georgia", serif;
+  font-weight: bold;
+  max-width: 90%;
+}
+
 h1,
 h2,
 h3,
