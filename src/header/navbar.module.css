@@ -7,6 +7,12 @@
   justify-content: space-between;
   display: flex;
   padding: 3rem;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
 }
 
 .link {
@@ -21,18 +27,27 @@
   opacity: 1;
 }
 
-.navLinks {
-  display: flex;
-  gap: 2rem;
-}
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1rem 1rem;
+  }
 
-.navLinksAlt {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
+  .navbar img {
+    width: 100px;
+    height: 100px;
+    margin-right: 1.5rem;
+  }
 
-.navLinks a {
-  text-decoration: none;
-  transition: opacity 0.3s ease;
+  .navLinks {
+    flex: 1;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+
+  .link {
+    font-size: 1rem;
+  }
 }
