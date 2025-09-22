@@ -10,6 +10,7 @@
 .workFormat {
   gap: 2rem;
   background-color: #d9d9d9;
+  padding: 2rem;
 }
 
 .paragraph {
@@ -35,4 +36,20 @@
 
 .subText span {
   color: #6181e1;
+}
+@media screen and (max-width: 768px) {
+  .workSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 1rem;
+  }
+
+  .workFormat {
+    width: 100%;
+    max-width: 380px;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
 }

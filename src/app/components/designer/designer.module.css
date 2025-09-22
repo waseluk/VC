@@ -69,18 +69,41 @@
   transform: scale(1.1);
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 768px) {
   .designerSection {
-    grid-template-columns: 1fr;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    gap: 2rem;
   }
 
   .textContent {
     max-width: 100%;
     align-items: center;
+    text-align: center;
+    gap: 1.5rem;
   }
 
   .imageWrapper {
-    margin-top: 2rem;
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  .profileImage {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .frameworkWrapper ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .frameworkLogo {
+    width: 60px;
+    height: 60px;
   }
 }
