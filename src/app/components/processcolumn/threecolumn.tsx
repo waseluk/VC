@@ -1,6 +1,5 @@
 import styles from "@/app/components/processcolumn/threecolumn.module.css";
 import Nav from "@/app/components/processcolumn/columnnav";
-import ReviewSectionAlt from "../reviews/reviewSectionAlt";
 
 export default function ThreeColumnLayout() {
   return (
@@ -27,9 +26,9 @@ export default function ThreeColumnLayout() {
           <h4 className={styles.headerColumn}>Design & Development</h4>
           <p className={styles.subText}>
             My goal is to be as <span>transparent</span> as possible, using the
-            latest languages and frameworks I will <span>communicate</span>{" "}
-            recommended changes to help you to understand more about the web as
-            we collaborate.
+            latest languages and frameworks I will communicate recommended
+            changes to help you to understand more about the web as we
+            collaborate.
           </p>
           <p className={styles.subText}>
             I work on a time and materials basis. I’ve found this to be a{" "}
@@ -57,9 +56,7 @@ export default function ThreeColumnLayout() {
       </main>
 
       <div className={styles.rightColumn}>
-        <div className={styles.section}>
-          <ReviewSectionAlt />
-        </div>
+        <div className={styles.section}></div>
       </div>
     </div>
   );
