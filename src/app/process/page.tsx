@@ -4,6 +4,7 @@ import ThreeColumnLayout from "@/app/components/processcolumn/threecolumn";
 import ProcessHero from "@/app/components/processpagehero/processhero";
 
 import type { Metadata } from "next";
+import ReviewSection from "../components/reviews/reviewSection";
 
 export const metadata: Metadata = {
   title: "Process | Crafting Websites with Clients",
@@ -43,12 +44,14 @@ export default function Process() {
       <section className={styles.section} aria-label="Process Hero">
         <ProcessHero />
       </section>
-
+      <section className={styles.reviewsSection} aria-label="Reviews">
+        <ReviewSection />
+      </section>
       <section className={styles.section} aria-label="Process Steps">
         <ThreeColumnLayout />
       </section>
 
-      <footer className={styles.section} aria-label="Footer">
+      <footer aria-label="Footer">
         <Footer />
       </footer>
     </main>

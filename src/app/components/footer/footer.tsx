@@ -9,7 +9,6 @@ export default function FooterSection() {
           <span>get in touch</span> to get the ball rolling.
         </div>
         <div className={styles.vasselFooterSubheaderText}>
-          <p>Social media free since 2023 drop me an email: </p>
           <p>
             <a href="mailto:hello@vasselcreative.com?subject=Let’s%20Work%20Together&body=Hi%20Vassel%20Creative,">
               <span>hello@vasselcreative.com</span>

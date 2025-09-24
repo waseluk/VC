@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import styles from "@/header/navbar.module.css";
+import styles from "@/app/components/processcolumn/columnnav.module.css";
 
 const links = [
   { name: "Chat & Review", href: "#chat" },
