@@ -1,13 +1,8 @@
 import styles from "@/app/components/processcolumn/threecolumn.module.css";
-import Nav from "@/app/components/processcolumn/columnnav";
 
 export default function ThreeColumnLayout() {
   return (
     <div className={styles.container}>
-      <aside className={styles.sidebar}>
-        <Nav />
-      </aside>
-
       <main className={styles.main}>
         <section id="chat" className={styles.section}>
           <h3 className={styles.headerColumn}>Chat and Review</h3>
@@ -54,10 +49,6 @@ export default function ThreeColumnLayout() {
           </p>{" "}
         </section>
       </main>
-
-      <div className={styles.rightColumn}>
-        <div className={styles.section}></div>
-      </div>
     </div>
   );
 }

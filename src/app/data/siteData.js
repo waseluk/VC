@@ -36,7 +36,7 @@ export const workCards = [
     },
     {
       image: "/images/kitty.avif",
-      cardReview: "Tom really brings a vast array of ideas to sessions and works closely to integrate requirements.",
+      cardReview: "Tom brings a vast array of ideas to sessions and works closely to integrate requirements.",
       cardAuthor: 'Kitty C',
       cardCompany: "Writer & Food Stylist"
     },
