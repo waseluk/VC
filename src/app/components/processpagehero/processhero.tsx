@@ -16,8 +16,8 @@ export default function ProcessHero() {
           My Process <br />
         </h1>
         <h2 className={styles.vasselHeroSubheaderText}>
-          All of my initial consultations are <span>free</span>. Forget ‘hard
-          selling’, lets just have a <span>chat</span>.
+          All of my initial consultations are <span>free</span>. Lets just have
+          a <span>chat</span>.
         </h2>
       </div>
 

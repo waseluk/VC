@@ -1,107 +1,65 @@
 .container {
   display: grid;
-  grid-template-columns: 200px 1fr 300px;
-  height: 100vh;
-}
-
-.sidebar {
-  position: sticky;
-  top: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: #4f777288;
-  padding: 1rem;
-  z-index: 5;
+  grid-template-columns: 1fr;
+  padding: 2rem;
+  gap: 2rem;
 }
 
 .main {
-  overflow-y: scroll;
-  height: 100vh;
-
-  scroll-snap-type: y mandatory;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
 .section {
-  scroll-snap-align: start;
-  min-height: 100vh;
-  gap: 2rem;
+  background: #4f777288;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background: #4f777288;
+  justify-content: flex-start;
+  min-height: 250px;
+  max-height: 400px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
 }
 
-.rightColumn {
-  height: 100vh;
+.section:hover {
+  transform: translateY(-5px); /* subtle hover lift */
 }
 
-.rightColumn .section {
-  min-height: 100vh;
-  padding: 1rem;
-  background: #4f777288;
-
-  display: flex;
-  align-items: center;
+.headerColumn {
+  font-size: 1.25rem;
+  color: #4f7772;
+  margin-bottom: 1rem;
 }
 
-.textContent {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  max-width: 600px;
+.paragraph,
+.subText {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 0.75rem;
 }
 
-.tagline {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #2e5c57;
-}
 .section span {
   color: #6181e1;
 }
-.paragraph {
-  font-size: 1.25rem;
-  color: rgba(255, 255, 255, 0.652);
-  line-height: 1.5;
-}
-.headerColumn {
-  color: #4f7772;
-  font-size: 1.25rem;
-}
 
-.subText {
-  font-size: 1.25rem;
-  color: rgba(255, 255, 255, 0.652);
-  line-height: 1.5;
+@media screen and (max-width: 1024px) {
+  .main {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+  }
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    height: auto; /* allow content to determine height */
-  }
-
-  .sidebar {
-    display: none; /* ✅ completely remove sidebar */
-  }
-
   .main {
-    height: auto;
-    overflow-y: visible;
-    scroll-snap-type: none;
+    grid-template-columns: 1fr; /* stack cards on mobile */
   }
 
   .section {
     min-height: auto;
-    padding: 1.5rem;
-    scroll-snap-align: none;
-  }
-
-  .rightColumn {
-    display: none;
+    max-height: none;
   }
 }
