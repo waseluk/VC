@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-//import Navbar from "@/header/navbar";
+import Navbar from "@/header/navbar";
 import { Calistoga } from "next/font/google";
 import "./globals.css";
 
@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${calistoga.className} antialiased`}>
-        {/*<Navbar />*/}
+        <Navbar />
         {children}
       </body>
     </html>
