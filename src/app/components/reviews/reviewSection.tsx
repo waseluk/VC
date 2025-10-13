@@ -1,3 +1,5 @@
+"use client";
+
 import { reviewData } from "@/app/data/siteData";
 import ReviewCard from "@/app/components/reviews/reviewCard";
 import styles from "@/app/components/reviews/review_section.module.css";

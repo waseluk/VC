@@ -1,3 +1,5 @@
+"use client";
+
 import { tableData } from "@/app/data/tableData";
 import ProjectTable from "@/app/components/table/table";
 import styles from "@/app/components/table/table_section.module.css";
