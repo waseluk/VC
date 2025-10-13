@@ -32,10 +32,6 @@ export default function ThreeColumnLayout() {
             <span>flexible</span> and transparent pricing <span>structure</span>{" "}
             for everyone.
           </p>{" "}
-          <p className={styles.subText}>
-            I charge £100/hr for the first ten hours of any project, then £80/hr
-            after that.
-          </p>
         </section>
 
         <section id="aftercare" className={styles.section}>

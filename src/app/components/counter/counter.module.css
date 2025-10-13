@@ -1,0 +1,40 @@
+.section {
+  padding: 2rem 0;
+}
+
+.container {
+  max-width: 64rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statNumber {
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: #6181e1;
+}
+
+.statCaption {
+  font-size: 1.25rem;
+
+  margin-top: 0.5rem;
+  font-weight: 500;
+  color: #2e5c57;
+}

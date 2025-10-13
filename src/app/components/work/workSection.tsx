@@ -3,6 +3,7 @@
 import { workCards } from "@/app/data/siteData";
 import WorkCard from "./workCard";
 import styles from "@/app/components/work/work_section.module.css";
+import StatsSection from "../counter/counter";
 
 export default function WorkSection() {
   return (
@@ -11,8 +12,11 @@ export default function WorkSection() {
         <h3 className={styles.subText}>
           I believe every business carries a <span>unique</span> spark. My
           mission is to shape that spark within the digital space, building{" "}
-          <span>websites</span> to make your vision <span>shine.</span>
+          <span>websites</span> to make your business <span>shine.</span>
         </h3>
+      </div>
+      <div>
+        <StatsSection />
       </div>
       <div className={styles.workSection}>
         {workCards.map((card, index) => (
