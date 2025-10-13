@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import styles from "@/app/components/designer/designer.module.css";
 import FrameworkLogos from "@/app/components/designer/frameworks";

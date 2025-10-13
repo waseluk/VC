@@ -1,3 +1,5 @@
+"use client";
+
 type Project = {
   launch: string;
   description: string;

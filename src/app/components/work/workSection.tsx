@@ -1,3 +1,5 @@
+"use client";
+
 import { workCards } from "@/app/data/siteData";
 import WorkCard from "./workCard";
 import styles from "@/app/components/work/work_section.module.css";

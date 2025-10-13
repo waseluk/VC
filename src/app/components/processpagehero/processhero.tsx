@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "@/app/components/processpagehero/processhero.module.css";
 export default function ProcessHero() {
   return (

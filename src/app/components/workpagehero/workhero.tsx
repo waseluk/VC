@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "@/app/components/workpagehero/workhero.module.css";
 export default function WorkHero() {
   return (

@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "@/app/components/processcolumn/threecolumn.module.css";
 
 export default function ThreeColumnLayout() {
